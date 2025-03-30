@@ -29,6 +29,6 @@ Aula 6 - Agrupando Dados e Analisando por Categoria: Técnicas de agrupamento pa
 ## 3. Estatística e Algoritmos em Python
 Aula 1 - Métodos Matemáticos para Data Analytics: Introdução aos principais métodos estatísticos e matemáticos utilizados em Data Analytics com Python.
 
-Objetivo
+# Objetivo
 O objetivo principal deste repositório é fornecer uma base de conhecimento contínua para os estudos realizados, com foco em Data Analytics. A ideia é consolidar o aprendizado de maneira prática e organizada, promovendo uma melhor compreensão dos conceitos e técnicas aplicados a casos reais. Cada aula será documentada de forma detalhada, com exemplos de código e explicações claras, para garantir que o conteúdo seja facilmente acessível e reutilizável no futuro.
 
