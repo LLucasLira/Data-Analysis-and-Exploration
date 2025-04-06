@@ -1,0 +1,53 @@
+# Sobre Fase 1
+
+## Análise de Dados de Produção Hospitalar
+
+Este repositório contém um conjunto de análises e visualizações de dados hospitalares utilizando a linguagem Python, com as bibliotecas **Pandas** e **Matplotlib**. 
+O objetivo é demonstrar como processar, limpar e visualizar dados reais de produção hospitalar, além de realizar ajustes gráficos e explorar diferentes técnicas de manipulação de dados.
+
+## 1. Aquisição e Leitura de Dados
+
+A primeira etapa do projeto envolve a importação de dados reais a partir de um arquivo CSV, com informações sobre a produção hospitalar. A leitura dos dados é feita utilizando a biblioteca **Pandas**, que oferece funcionalidades para lidar com grandes volumes de dados de maneira eficiente. Após a importação, realizamos a visualização das primeiras e últimas linhas dos dados para entender a estrutura e identificar possíveis problemas de qualidade ou inconsistências.
+
+Além disso, foi aplicada uma técnica de captura da coluna mais recente com base no ano e mês atuais, garantindo que o código se adapte dinamicamente àmudança de período, sempre trazendo os dados mais recentes disponíveis.
+
+## 2. Visualização de Dados
+
+Para a visualização dos dados, foi utilizado o **Matplotlib**, uma das bibliotecas mais poderosas para gráficos em Python. Durante essa etapa, são criados gráficos que mostram os valores da produção hospitalar por diferentes unidades da federação. A visualização é ajustada para destacar as informações mais relevantes, como a utilização de gráficos de barras para comparar diferentes unidades.
+
+Além disso, foram realizados desafios de personalização gráfica, como:
+- Ajuste da rotação dos rótulos no eixo x para melhorar a legibilidade.
+- Customização de tamanhos e estilos de gráficos.
+- Inclusão de títulos e legendas para tornar os gráficos mais informativos.
+
+## 3. Manipulação de Dados
+
+A manipulação dos dados envolve a limpeza e conversão dos dados para um formato adequado para análise. Isso inclui:
+- Remoção de valores não numéricos.
+- Conversão de dados para o formato numérico.
+- Tratamento de valores ausentes, substituindo-os por valores como a média ou zero.
+
+Após essa limpeza, foi realizada a agregação de dados por unidade da federação, permitindo uma análise mais precisa de cada região. As estatísticas descritivas, como a média, também foram calculadas para fornecer insights sobre a distribuição dos dados.
+
+## 4. Ajustes Gráficos e Estilo
+
+Para tornar os gráficos mais informativos e visualmente agradáveis, diversos ajustes foram feitos:
+- A rotação dos rótulos no eixo x para 45 graus, evitando sobreposição e facilitando a leitura.
+- A utilização de um fundo escuro para melhorar o contraste dos gráficos e destacar as informações.
+- A personalização das legendas, incluindo a escolha de fontes, cores e o posicionamento para tornar os gráficos mais claros e esteticamente agradáveis.
+- Adição de um grid suave para melhorar a legibilidade dos gráficos.
+
+## 5. Tipos de Gráficos
+
+Diversos tipos de gráficos foram explorados durante a análise:
+- **Gráficos de Linha (Line Plot)**: Utilizados para mostrar a variação dos valores ao longo do tempo.
+- **Gráficos de Barra (Bar Plot)**: Ideal para comparar valores entre diferentes categorias, como unidades da federação.
+- **Histogramas**: Usados para mostrar a distribuição de valores, permitindo entender a dispersão dos dados.
+- **Gráficos de Pizza (Pie Chart)**: Utilizados para visualizar a proporção de diferentes categorias em relação ao todo.
+- **Gráficos de Dispersão (Scatter Plot)**: Para mostrar a relação entre duas variáveis.
+
+## 6. Ajustes Finais e Exportação
+
+Por fim, foram feitos ajustes finais nos gráficos, incluindo a formatação de valores no eixo Y para exibir números com duas casas decimais, facilitando a leitura e interpretação. O repositório contém exemplos de como essas técnicas podem ser aplicadas a diferentes conjuntos de dados para gerar insights úteis e apresentar os resultados de forma clara e visualmente atrativa.
+
+
