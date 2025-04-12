@@ -1,0 +1,23 @@
+# Sobre Fase 2
+
+## Etapas iniciais da análise de dados: **tratamento**, **exploração** e **visualização**.
+
+Os dados populacionais das Unidades Federativas do Brasil foram extraídos de diferentes fontes (IBGE, Wikipedia e uma tabela embutida em texto), e passaram por processos de limpeza e preparação para análises futuras com foco em visualizações gráficas.
+
+### 1. Carregamento de Dados
+- **Fonte 1:** Tabela do IBGE em formato `.xls`, disponível em um repositório do GitHub.
+- **Fonte 2:** Tabela embutida em string (simulando um arquivo `.csv`) com dados populacionais e países comparáveis.
+- **Fonte 3:** Tabela da Wikipedia utilizando `pandas.read_html()`.
+
+### 2. Tratamento de Dados
+- Conversão de string para DataFrame (`StringIO`).
+- Remoção de valores nulos com `.dropna()`.
+- Renomeação de colunas para facilitar a manipulação.
+- Conversão de valores numéricos para o tipo `int` (remoção de espaços e símbolos).
+- Remoção de colunas e linhas desnecessárias.
+- Padronização dos nomes das colunas para análise.
+
+### 3. Exploração Inicial
+- Verificação da tipagem das colunas (`.info()`).
+- Uso de `.head()` para uma prévia dos dados.
+- Preparação das tabelas para visualizações com Seaborn e análises proporcionais (próximas etapas).
