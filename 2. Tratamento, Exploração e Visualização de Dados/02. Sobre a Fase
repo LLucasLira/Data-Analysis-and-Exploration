@@ -21,3 +21,26 @@ Os dados populacionais das Unidades Federativas do Brasil foram extraídos de di
 - Verificação da tipagem das colunas (`.info()`).
 - Uso de `.head()` para uma prévia dos dados.
 - Preparação das tabelas para visualizações com Seaborn e análises proporcionais (próximas etapas).
+
+### 4. Tratamento dos Dados de Gastos Hospitalares
+- Leitura de uma base .csv com informações mensais de gastos hospitalares por UF.
+- Redefinição da coluna de UFs como índice do DataFrame.
+
+### 5. Junção com Dados Populacionais
+- Junção dos dados de gastos com os dados populacionais usando o nome do estado como chave.
+- Substituição de valores ausentes por zero onde necessário.
+- Cálculo da coluna de gastos absolutos (em reais).
+- Cálculo da proporção de gastos por habitante.
+
+### 6. Visualização de Dados
+- Geração de gráficos para análise comparativa:
+- Gráfico de barras do gasto por habitante por UF.
+- Gráficos de pizza para distribuição percentual de gastos por estado.
+- Scatter plots relacionando população e total de gastos.
+- Utilização das bibliotecas matplotlib e seaborn para construção das visualizações.
+
+### 7. Análise Temporal
+- Conversão dos nomes das colunas (ex: 2023/Jan) para objetos datetime com base no primeiro dia do mês.
+- Reestruturação da base mensal (.T) para facilitar a visualização da evolução dos gastos ao longo do tempo.
+- Comparações temporais com gráficos de linha para estados específicos ou todos os estados simultaneamente.
+- Aplicação da função .melt() para transformação do DataFrame em formato longo e permitir visualizações agrupadas com hue.
