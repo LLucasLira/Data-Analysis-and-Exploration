@@ -60,6 +60,28 @@ Este repositório tem como objetivo ser um lugar de estudos e de armazenamento d
   - Linguagem SQL Para Analise, Seleção, Filgram, Agrupamento e Joins;
   - Tipos de Bancos NoSQL: Documentos, Chave-Valor, Grafos e Colunas.
 
+# 4.Data viz and production models
+## Análise de negócios.
+  -  Processos e formas de análise;   	   
+  - Ligação com bancos de dados;	   
+  - Geração de insights;   
+  - Técnicas de visualização;	   
+  - Dashboards e storytelling.
+      	   
+## Deploy de aplicações.
+  - Tratando os dados;
+  - Criando a variável target;  	   
+  - Machine Learning: Construindo a Pipeline; 	   
+  - Machine Learning: Escolhendo o Melhor Modelo;  	   
+  - Criando a aplicação.
+    	   
+## Modelo de ML em produção.
+  - Introdução do curso e ML em Produção; 	   
+  - Containerização com Docker;   
+  - API com Flask;
+  - Prototipagem de aplicações com Streamlit;   
+  - Aplicação de ML com Docker, Flask e Streamlit.
+
 # Objetivo
 O objetivo principal deste repositório é fornecer uma base de conhecimento contínua para os estudos realizados, com foco em Data Analytics. A ideia é consolidar o aprendizado de maneira prática e organizada, promovendo uma melhor compreensão dos conceitos e técnicas aplicados a casos reais. Cada aula será documentada de forma detalhada, com exemplos de código e explicações claras, para garantir que o conteúdo seja facilmente acessível e reutilizável no futuro.
 
