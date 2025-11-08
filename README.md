@@ -1,6 +1,12 @@
 # Repositório de Estudos - Pós-graduação em Data Analytics
 Este repositório tem como objetivo ser um lugar de estudos e de armazenamento de todo o conteúdo aprendido durante a pós-graduação em Data Analytics. Aqui, serão armazenadas anotações detalhadas sobre os tópicos abordados, com o intuito de compartilhar conhecimento, revisar os conceitos e aplicar as técnicas e ferramentas discutidas.
 
+# Sumário:
+1. Data Analysis and Exploration
+2. Machine Learning and Time Series
+3. Big Data
+4. Data viz and production models
+
 # 1. Data Analysis and Exploration
 ## Análise exploratória de dados
   - Aquisição e Leitura de Dados Reais;
