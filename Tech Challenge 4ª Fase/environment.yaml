@@ -1,0 +1,45 @@
+name: ambiente_fase4_tc
+channels:
+  - conda-forge
+dependencies:
+  # Core do Sistema
+  - python=3.10
+  - pip
+  
+  # Ferramentas de desenvolvimento
+  - git 
+  - ipython
+  - jupyterlab
+  - notebook
+  - mkdocs
+  - mkdocs-material
+  - mkdocs-jupyter
+  
+  # Instalação via PIP
+  - pip:
+    # Utilitários
+    - typer
+    - loguru
+    - tqdm
+    - python-dotenv
+    - cookiecutter
+    - cookiecutter-data-science
+    
+    # Linting & Formatting
+    - black
+    - flake8
+    - isort
+    - pytest
+
+    # Data Science & ML
+    - numpy
+    - pandas
+    - matplotlib
+    - seaborn
+    - joblib
+    - scikit-learn==1.7.0
+    - imbalanced-learn>=0.10.0
+    - shap
+    
+    # Aplicação
+    - streamlit>=1.30.0
